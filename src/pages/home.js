@@ -1,8 +1,14 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
+import axios from 'axios'
 
 function home() {
+    
   return (
-    <div>home</div>
+    <div>
+      <h1>home</h1>  
+     
+    </div>
+
   )
 }
 
